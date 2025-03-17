@@ -26,6 +26,7 @@ This project demonstrates a **real-time graphical radar system** using an **Ardu
 - Open the `ArduinoRadar.ino` file in **Arduino IDE**.  
 - Connect your **Arduino** to the PC and upload the sketch.  
 
+
 ### 2️⃣ **Run the Processing Code**  
 - Open `RadarDisplay.pde` in **Processing IDE**.  
 - Make sure the correct **COM port** is set in the Processing code.  
@@ -33,7 +34,17 @@ This project demonstrates a **real-time graphical radar system** using an **Ardu
 
 ## 🎥 Demo Video  
 📺 Watch the full tutorial on YouTube: [Your YouTube Link Here]  
-
+###hardware conection
+   +---------------------+  
+   |      Arduino       |  
+   |  5V  ---- VCC (HC-SR04)  
+   |  GND ---- GND (HC-SR04)  
+   |  D9  ---- Trig (HC-SR04)  
+   |  D10 ---- Echo (HC-SR04)  
+   |  D6  ---- Signal (Servo)  
+   |  5V  ---- VCC (Servo)  
+   |  GND ---- GND (Servo)  
+   +---------------------+  
 ## 📌 Screenshots  
 ![Radar Display](YourImageURLHere)  
 
